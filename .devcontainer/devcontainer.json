@@ -1,0 +1,19 @@
+{
+    "name": "Python Basic Project",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "python",
+    "workspaceFolder": "/tmp/work",
+    "extensions": [
+        "ms-python.python",
+        "eamodio.gitlens",
+    ],
+    "settings": {
+        "editor.tabSize": 4,
+        "python.linting.enabled": true,
+        "python.linting.pylintEnable":false,
+        "python.linting.flake8Enabled": true,
+        "python.linting.lintOnSave": true,
+        "python.formatting.provider": "black",
+        "editor.format.onSave": true,
+    },
+}
