@@ -1,2 +1,2 @@
 def konchiwa(name):
-    print(f'hello {name} san')
+    print(f"hello {name} san")
